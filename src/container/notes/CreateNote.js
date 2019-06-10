@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
-import NoteForm, { connect } from '../../components/notes/NoteForm';
+import { connect } from 'react-redux';
+import NoteForm from '../../components/notes/NoteForm';
 import { newNote } from '../../actions/notesActions';
 
 class CreateNote extends PureComponent {
