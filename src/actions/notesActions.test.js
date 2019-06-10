@@ -1,6 +1,5 @@
 import { newNote } from './notesActions';
 
-// Faking API call - no need to revisit test file
 jest.mock('../services/notesApi.js', () => ({
   createNote() {
     return Promise.resolve([]);
